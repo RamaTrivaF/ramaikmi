@@ -32,6 +32,7 @@
 </style>
 <center><h1>Hello World</h1></center>
 <table border="0" style="width: 700px;">
+<button onclick="Pindah()" class="btn third">Show Table</button
 <tr>
 	<td align="center" colspan="3" bgcolor="white">
 		<font color="blue" size="20px">
@@ -69,5 +70,18 @@
 <td><center><button onclick="alert('Hello javascipt!)">Hello World</button></center>
 </tr>
 </table>
+	
+<button onclick="Pindah()" class="btn third">Show Table</button
+	<script>
+	
+	function Pindah() {
+      const yakinNih = confirm("Want to switch pages?")
+      if (yakinNih) {
+        return document.location.href = "./P03/P03_table.html"
+      }
+      alert("Batal berpindah halaman, terimakasih sudah memberikan response")
+    }
+	</script>
+	
 </body>
 </html>
